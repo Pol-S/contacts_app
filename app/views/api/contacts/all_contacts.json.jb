@@ -1,3 +1,6 @@
-{
-  response: "EVERYONE",
-}
+@all_dudes.map do |trick|
+  {
+    first_name: trick.first_name,
+    last_name: trick.last_name,
+  }
+end

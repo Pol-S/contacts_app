@@ -6,6 +6,10 @@ class Api::ContactsController < ApplicationController
 
   def all_contact
     @all_dudes = Contact.all
+    # index = 0
+    # while index < @all_dudes.length
+    #   @current_trick = @all_dudes[index]
     render "all_contacts.json.jb"
+    # end
   end
 end
