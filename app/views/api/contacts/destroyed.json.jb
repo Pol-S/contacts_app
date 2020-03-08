@@ -1,8 +1,8 @@
 {
-  First_name: @contact.first_name,
-  Last_name: @contact.last_name,
+  Name: @contact.full_name,
   Email: @contact.email,
   Phone_Number: @contact.phone_number,
   Id: @contact.id,
+  Updated_at: @contact.friendly_updated_at,
   Message: "This contact was destroyed",
 }
