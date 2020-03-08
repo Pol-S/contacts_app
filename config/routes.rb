@@ -7,5 +7,6 @@ Rails.application.routes.draw do
     get "/contacts" => "contacts#index"
     get "/contacts/:id" => "contacts#show"
     post "/contacts" => "contacts#post"
+    patch "/contacts/:id" => "contacts#update"
   end
 end

@@ -3,4 +3,5 @@
   Last_name: @contact.last_name,
   Email: @contact.email,
   Phone_Number: @contact.phone_number,
+  Id: @contact.id,
 }
