@@ -4,5 +4,5 @@
   Email: @contact.email,
   Phone_Number: @contact.phone_number,
   Id: @contact.id,
+  Message: "This contact was destroyed",
 }
-"This was destroyed"
