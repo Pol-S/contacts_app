@@ -11,10 +11,10 @@ class Api::ContactsController < ApplicationController
 
   def post
     @contact = Contact.new({
-      first_name: "Kyle",
-      last_name: "Ross",
-      email: "kross@example.com",
-      phone_number: "456 789-1234",
+      first_name: params[:first_name],
+      last_name: params[:last_name],
+      email: params[:email],
+      phone_number: params[:phone_number],
     })
     @contact.save
 
