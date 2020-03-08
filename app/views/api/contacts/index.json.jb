@@ -1,6 +1,9 @@
 @all_dudes.map do |trick|
   {
-    first_name: trick.first_name,
-    last_name: trick.last_name,
+    First_name: trick.first_name,
+    Last_name: trick.last_name,
+    Email: trick.email,
+    Phone_Number: trick.phone_number,
+    Id: trick.id,
   }
 end

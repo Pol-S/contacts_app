@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   # EXAMPLE JSON ROUTE WITH API NAMESPACE
   namespace :api do
     get "/contacts" => "contacts#index"
-    get "/contacts" => "contacts#show"
+    get "/contacts/:id" => "contacts#show"
   end
 end
