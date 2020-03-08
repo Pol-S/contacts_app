@@ -4,12 +4,12 @@ class Api::ContactsController < ApplicationController
     render "first_contact.json.jb"
   end
 
-  def all_contact
+  def index
     @all_dudes = Contact.all
     # index = 0
     # while index < @all_dudes.length
     #   @current_trick = @all_dudes[index]
-    render "all_contacts.json.jb"
+    render "index.json.jb"
     # end
   end
 end
