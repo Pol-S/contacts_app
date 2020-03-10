@@ -2,6 +2,7 @@
   Name: contact.full_name,
   Email: contact.email,
   Phone_Number: contact.phone_number,
+  Biography: contact.bio,
   Id: contact.id,
   Updated_at: contact.friendly_updated_at,
 }
