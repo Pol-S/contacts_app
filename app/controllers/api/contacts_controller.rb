@@ -1,7 +1,9 @@
 class Api::ContactsController < ApplicationController
   def index
     @all_dudes = Contact.all
-    render "index.json.jb"
+    if current_user.id
+      render "index.json.jb"
+    end
   end
 
   def show
